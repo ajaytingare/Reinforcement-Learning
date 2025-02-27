@@ -24,14 +24,14 @@ The core update rule in Q-learning is:
 
  
 Explanation of Terms:
+
 𝑄
 (
 𝑠
 ,
 𝑎
 )
-
-Q(s,a) → The current Q-value for state 
+ → The current Q-value for state 
 𝑠
 s and action 
 𝑎
@@ -42,17 +42,8 @@ a.
 
 𝛾 (discount factor) → Determines the importance of future rewards. A value close to 1 prioritizes long-term rewards, while a value close to 0 prioritizes immediate rewards.
 
-max <sub>𝑎′<sub>𝑄(𝑠′,𝑎′) → The highest estimated Q-value for the next state 
-𝑠
-′
-s 
-′
- , considering all possible actions 
-𝑎
-′
-a 
-′
- .
+max <sub>𝑎′</sub>𝑄(𝑠′,𝑎′) → The highest estimated Q-value for the next state 𝑠′, considering all possible actions 𝑎′.
+
 This equation allows the agent to learn an optimal policy by adjusting Q-values based on rewards and future estimations.
 
 
