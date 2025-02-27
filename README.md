@@ -1,7 +1,5 @@
-# Reinforcement-Learning
+# Reinforcement-Learning (Q-Learning Grid World)
 The people scared from ai because some day it can do terminator concept in actual world by this RL (Reinforcement Learning).
-
-# Q-Learning Grid World
 
 ## Overview
 This repository contains an implementation of **Q-Learning** for solving a Grid World problem using **Reinforcement Learning**. The agent learns to navigate the grid, maximize rewards, and reach the goal efficiently through an iterative learning process.
