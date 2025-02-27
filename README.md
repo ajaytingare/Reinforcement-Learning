@@ -78,7 +78,7 @@ pip install numpy matplotlib
 Q_Learning_Grid/
 │-- Q_learning_grid_.ipynb   # Jupyter Notebook with implementation
 │-- README.md                # Documentation
-|-- Q_learning.png           # Q learning Equation
+|-- q_learning_equation.png           # Q learning Equation
 ```
 
 ## Results
