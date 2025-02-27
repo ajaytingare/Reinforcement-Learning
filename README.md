@@ -16,6 +16,116 @@ Where:
 - \( \gamma \) is the discount factor.
 - \( \max Q(s', a') \) is the estimated best Q-value for the next state.
 
+Q-Learning Update Rule
+The core update rule in Q-learning is:
+
+𝑄
+(
+𝑠
+,
+𝑎
+)
+←
+𝑄
+(
+𝑠
+,
+𝑎
+)
++
+𝛼
+[
+𝑟
++
+𝛾
+max
+⁡
+𝑎
+′
+𝑄
+(
+𝑠
+′
+,
+𝑎
+′
+)
+−
+𝑄
+(
+𝑠
+,
+𝑎
+)
+]
+Q(s,a)←Q(s,a)+α[r+γ 
+a 
+′
+ 
+max
+​
+ Q(s 
+′
+ ,a 
+′
+ )−Q(s,a)]
+Explanation of Terms:
+𝑄
+(
+𝑠
+,
+𝑎
+)
+Q(s,a) → The current Q-value for state 
+𝑠
+s and action 
+𝑎
+a.
+𝛼
+α (learning rate) → Controls how much new information influences the existing Q-value.
+𝑟
+r → The reward received after taking action 
+𝑎
+a.
+𝛾
+γ (discount factor) → Determines the importance of future rewards. A value close to 1 prioritizes long-term rewards, while a value close to 0 prioritizes immediate rewards.
+max
+⁡
+𝑎
+′
+𝑄
+(
+𝑠
+′
+,
+𝑎
+′
+)
+max 
+a 
+′
+ 
+​
+ Q(s 
+′
+ ,a 
+′
+ ) → The highest estimated Q-value for the next state 
+𝑠
+′
+s 
+′
+ , considering all possible actions 
+𝑎
+′
+a 
+′
+ .
+This equation allows the agent to learn an optimal policy by adjusting Q-values based on rewards and future estimations.
+
+
+
+
 ## Features
 - Implementation of **Q-Learning** in a grid environment.
 - Visualization of agent's learning progress.
