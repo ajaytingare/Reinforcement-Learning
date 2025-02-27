@@ -12,7 +12,7 @@ Q-Learning is a model-free reinforcement learning algorithm used to find the opt
 
 The core update rule in Q-learning is:
 
->𝑄( 𝑠 , 𝑎 ) ← 𝑄( 𝑠 , 𝑎 ) + 𝛼 [ 𝑟 + 𝛾 max 𝑎′ 𝑄(𝑠′,𝑎′) − 𝑄(𝑠,𝑎)]
+>𝑄( 𝑠 , 𝑎 ) ← 𝑄( 𝑠 , 𝑎 ) + 𝛼 [ 𝑟 + 𝛾 max <sub>𝑎′</sub> 𝑄(𝑠′,𝑎′) − 𝑄(𝑠,𝑎)]
 
  
 Explanation of Terms:
