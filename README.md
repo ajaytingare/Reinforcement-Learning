@@ -7,17 +7,6 @@ This repository contains an implementation of **Q-Learning** for solving a Grid 
 ## What is Q-Learning?
 Q-Learning is a model-free reinforcement learning algorithm used to find the optimal action-selection policy. It follows the Bellman equation to update its Q-values based on the rewards received.
 
-The core update rule is:
-\[ Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \max Q(s', a') - Q(s, a)] \]
-Where:
-- \( Q(s, a) \) is the current Q-value for state \( s \) and action \( a \).
-- \( \alpha \) is the learning rate.
-- \( r \) is the reward received after taking action \( a \).
-- \( \gamma \) is the discount factor.
-- \( \max Q(s', a') \) is the estimated best Q-value for the next state.
-
-Q-Learning Update Rule
-
 The core update rule in Q-learning is:
 
 𝑄( 𝑠 , 𝑎 ) ← 𝑄( 𝑠 , 𝑎 ) + 𝛼 [ 𝑟 + 𝛾 max 𝑎′ 𝑄(𝑠′,𝑎′) − 𝑄(𝑠,𝑎)]
@@ -25,17 +14,8 @@ The core update rule in Q-learning is:
  
 Explanation of Terms:
 
-𝑄
-(
-𝑠
-,
-𝑎
-)
- → The current Q-value for state 
-𝑠
-s and action 
-𝑎
-a.
+𝑄(𝑠,𝑎) → The current Q-value for state 𝑠 and action 𝑎.
+
 𝛼 (learning rate) → Controls how much new information influences the existing Q-value.
 
 𝑟 → The reward received after taking action 𝑎.
