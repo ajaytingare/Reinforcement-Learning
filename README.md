@@ -61,9 +61,7 @@ max
 Q(s,a)←Q(s,a)+α[r+γ 
 a 
 ′
- 
 max
-​
  Q(s 
 ′
  ,a 
