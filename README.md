@@ -4,6 +4,9 @@ The people scared from ai because some day it can do such things like terminator
 ## Overview
 This repository contains an implementation of **Q-Learning** for solving a Grid World problem using **Reinforcement Learning**. The agent learns to navigate the grid, maximize rewards, and reach the goal efficiently through an iterative learning process.
 
+## Reinforcement Learning 
+Reinforcement Learning (RL) is a type of machine learning where an agent learns to make decisions by interacting with an environment. Through trial and error, it maximizes rewards by discovering the best strategies to achieve a goal. RL powers applications like robotics, game AI, self-driving cars, and more!
+
 ## What is Q-Learning?
 Q-Learning is a model-free reinforcement learning algorithm used to find the optimal action-selection policy. It follows the Bellman equation to update its Q-values based on the rewards received.
 
