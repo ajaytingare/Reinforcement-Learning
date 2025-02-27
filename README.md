@@ -69,6 +69,7 @@ max
  ,a 
 ′
  )−Q(s,a)]
+ 
 Explanation of Terms:
 𝑄
 (
